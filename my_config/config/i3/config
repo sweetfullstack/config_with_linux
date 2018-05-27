@@ -3,7 +3,7 @@
 set $mod Mod4
 
 # 字体
-font pango: monaco yahei,  fontAwesome 11
+font pango: Hack-BoldItalic 12, monaco yahei,  fontAwesome 11
 
 # resolv i3 transparancy bug
 #new_window pixel
@@ -37,7 +37,7 @@ bindsym $mod+Shift+q kill
 #透明
 exec compton -b
 #壁纸
-exec_always --no-startup-id feh --bg-scale ~/.config/i3/2.jpg
+exec_always --no-startup-id feh --bg-scale ~/.config/i3/twice.jpg
 
 
 # change focus
@@ -192,15 +192,15 @@ bindsym $mod+Shift+c reload
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        bindsym j resize shrink width 5 px or 5 ppt
-        bindsym k resize grow height 5 px or 5 ppt
-        bindsym l resize shrink height 5 px or 5 ppt
-        bindsym m resize grow width 5 px or 5 ppt
+        bindsym l resize shrink width 5 px or 5 ppt
+        bindsym h resize grow height 5 px or 5 ppt
+        bindsym j resize shrink height 5 px or 5 ppt
+        bindsym k resize grow width 5 px or 5 ppt
 
-        bindsym Left resize shrink width 2 px or 2 ppt
-        bindsym Down resize grow height 2 px or 2 ppt
-        bindsym Up resize shrink height 2 px or 2 ppt
-        bindsym Right resize grow width 2 px or 2 ppt
+        bindsym Right resize shrink width 2 px or 2 ppt
+        bindsym Up resize grow height 2 px or 2 ppt
+        bindsym Down resize shrink height 2 px or 2 ppt
+        bindsym Left resize grow width 2 px or 2 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -211,17 +211,16 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+w layout tabbed
 #########工作区图标设置############
-set $ws1 "1: "
+set $ws1 "1:  "
 set $ws2 "2:  "
-set $ws3 "3: "
-set $ws4 "4:  "
-set $ws5 "5: "
-set $ws6 "6:  "
-set $ws7 "7: "
-set $ws8 "8: "
-set $ws9 "9: "
-set $ws10 "10: "
-#set $ws10 "10:"
+set $ws3 "3:  "
+set $ws4 "4:  "
+set $ws5 "5:  "
+set $ws6 "6:  "
+set $ws7 "7:  "
+set $ws8 "8:  "
+set $ws9 "9:  "
+set $ws10 "10:  "
 
 bindsym $mod+1          workspace $ws1
 bindsym $mod+2          workspace $ws2
@@ -256,16 +255,16 @@ exec --no-startup-id fcitx
 #deepin截图
 bindsym $mod+Shift+p  exec --no-startup-id  deepin-screenshot
 #启动火狐浏览器
-bindsym $mod+Shift+f  exec --no-startup-id  firefox
+bindsym $mod+Shift+f exec --no-startup-id firefox
 #google
 bindsym $mod+Shift+g exec --no-startup-id  chromium
- 
+
 ####调节亮度
 
-#亮度+2
-bindsym $mod+Shift+<F5>  exec light -A 2
-#亮度-2
-bindsym $mod+Shift+<F6> exec light -U 2
+#亮度+5
+bindsym $mod+<F6>  exec light -A 5
+#亮度-5
+bindsym $mod+<F5> exec light -U 5
 
 ########调节声音
 bindsym $mod+Ctrl+Right exec "amixer -q sset Master,0 1+ unmute"

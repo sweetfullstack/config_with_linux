@@ -1,186 +1,296 @@
-set nocompatible              " required
-filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
+Plug 'mileszs/ack.vim'
+Plug 'mattn/emmet-vim'
+Plug 'ervandew/supertab'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'majutsushi/tagbar'
+Plug 'kien/ctrlp.vim'
+Plug 'vim-scripts/xml.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'honza/vim-snippets'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-rails'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'Raimondi/delimitMate'
+Plug 'nvie/vim-flake8'
 
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 
-" let Vundle manage Vundle, required
-Plugin 'jonathanfilip/vim-lucius'
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'gmarik/Vundle.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'jnurmine/Zenburn'
-Plugin 'kien/ctrlp.vim'
-Plugin 'nvie/vim-flake8'
-Plugin 'Raimondi/delimitMate'
-Plugin 'scrooloose/nerdtree'
-Plugin 'SuperTab'
-Plugin 'tmhedberg/SimpylFold'
-Plugin 'tpope/vim-fugitive'
-Plugin 'vim-scripts/indentpython.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'vim-scripts/ctags.vim'
-Plugin 'Valloric/YouCompleteMe'
-"Plugin 'w0rp/ale'
-Plugin 'scrooloose/syntastic'
-" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+Plug 'neomake/neomake'
+Plug 'mhinz/vim-startify'
+Plug 'vim-scripts/wildfire.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'yonchu/accelerated-smooth-scroll'
+Plug 'matze/vim-move'
+Plug 'pbrisbin/vim-mkdir'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'jnurmine/Zenburn'
 
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+Plug 'fatih/vim-go', { 'for': 'go'  }
+" Plug '...'
+" ...
+call plug#end()
 
-set splitbelow
-set splitright
+"主题设置
+colorscheme zenburn
 
-"split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+" 设置空白字符的视觉提示
+set list listchars=extends:❯,precedes:❮,tab:▸\ ,trail:□
+" " 高亮当前行
+set cursorline
+" " 显示行号
+set number
+" " 高亮
+syntax on
 
-" Enable folding
+"""
+" <Leader>ci 以每行一个 /* */ 注释选中行(选中区域所在行)，再输入则取消注释
+" <Leader>cm 以一个 /* */ 注释选中行(选中区域所在行)，再输入则称重复注释
+" <Leader>cc 以每行一个 /* */ 注释选中行或区域，再输入则称重复注释
+" <Leader>cu 取消选中区域(行)的注释，选中区域(行)内至少有一个 /* */
+" <Leader>ca 在/*...*/与//这两种注释方式中切换（其它语言可能不一样了）
+" <Leader>cA 行尾注释
+"""
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+"
+" " Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
+"Settings for Golang
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <Leader>gd <Plug>(go-doc)
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
+au FileType go nmap gd <Plug>(go-def-tab)
+
+"Powerline setting
+let g:airline_theme='molokai'
+"Set GUI font type
+if has("gui_running")
+let g:airline_powerline_fonts = 1
+set guifont=Source\ Code\ Pro\ for\ Powerline\ :h18
+endif
+
+"improve autocomplete menu color
+highlight Pmenu ctermbg=238 gui=bold
+
+"Setup SuperTab
+let g:SuperTabRetainCompletionType="context"
+
+" 设定文件浏览器目录为当前目录
+set bsdir=buffer
+"设置编码
+set encoding=utf-8
+set nocompatible
+set laststatus=2
+" 设置文件编码
+set fenc=utf-8
+"set to use clipboard of system
+set clipboard=unnamed
+
+" 设置文件编码检测类型及支持格式
+set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+
+"settings for backspace
+set backspace=2
+set backspace=indent,eol,start
+
+"忽略大小写查找
+set ic
+
+" tab宽度
+set tabstop=4
+set cindent shiftwidth=4
+set autoindent shiftwidth=4
+
+" set 折叠
 set foldmethod=indent
-set foldlevel=99
+" 打开文件默认不折叠
+set foldlevelstart=99
 
-" Enable folding with the spacebar
-nnoremap <space> za
+" set my leader
+let mapleader="\<Space>"
+let g:mapleader="\<Space>"
 
-"color 方案
-"if has('gui_running')
-"	set background=dark
-""	colorscheme solarized
-"else
-""	colorscheme zenburn
-"endif
+" tabs
+nmap <leader>tn :tabnew<cr>
+nmap <leader>te :tabedit
+nmap <leader>tc :tabclose<cr>
+nmap <leader>tm :tabmove
 
-let g:SimpylFold_docstring_preview=1
+" Settings for vim-easymotion
+let g:EasyMotion_leader_key = ","
+
+"Settings for TagBar
+map <leader>g :TagbarToggle<CR>
+let g:tagbar_type_go = {
+    \ 'ctagstype' : 'go',
+    \ 'kinds' : [
+        \ 'p:package',
+        \ 'i:imports:1',
+        \ 'c:constants',
+        \ 'v:variables',
+        \ 't:types',
+        \ 'n:interfaces',
+        \ 'w:fields',
+        \ 'e:embedded',
+        \ 'm:methods',
+        \ 'r:constructor',
+        \ 'f:functions'
+    \ ],
+    \ 'sro' : '.',
+    \ 'kind2scope' : {
+        \ 't' : 'ctype',
+        \ 'n' : 'ntype'
+    \ },
+    \ 'scope2kind' : {
+        \ 'ctype' : 't',
+        \ 'ntype' : 'n'
+    \ },
+    \ 'ctagsbin' : 'gotags',
+    \ 'ctagsargs' : '-sort -silent'
+	\ }
+
+
+"switch window
+map <leader>w <C-W>w
+
+"set zen coding
+let g:user_zen_settings = {
+  \  'php' : {
+  \    'extends' : 'html',
+  \    'filters' : 'c',
+  \  },
+  \  'xml' : {
+  \    'extends' : 'html',
+  \  },
+  \  'haml' : {
+  \    'extends' : 'html',
+  \  },
+  \  'erb' : {
+  \    'extends' : 'html',
+  \  },
+  \}
+
+
+if executable('ag')
+	set grepprg=ag\ --nogroup\ --nocolor
+	let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+	let g:ctrlp_use_caching = 0
+endif
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$\|.rvm$'
+let g:ctrlp_working_path_mode=0
+let g:ctrlp_match_window_bottom=1
+let g:ctrlp_max_height=15
+let g:ctrlp_match_window_reversed=0
+let g:ctrlp_mruf_max=500
+let g:ctrlp_follow_symlinks=1
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.jpg,*.png,*.gif,*.jpeg,.DS_Store  " MacOSX/Linux
+let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
 au BufNewFile,BufRead *.py
-\ set tabstop=4 |
-\ set softtabstop=4 |
-\ set shiftwidth=4 |
-\ set textwidth=79 |
-\ set expandtab |
-\ set autoindent |
-\ set fileformat=unix
+			\ set tabstop=4 |
+			\ set softtabstop=4 |
+			\ set shiftwidth=4 |
+			\ set textwidth=79 |
+			\ set expandtab |
+			\ set autoindent |
+			\ set fileformat=unix
 
 au BufNewFile,BufRead *.c
-\ set tabstop=4 |
-\ set softtabstop=4 |
-\ set shiftwidth=4 |
-\ set textwidth=79 |
-\ set expandtab |
-\ set autoindent |
-\ set fileformat=unix
+			\ set tabstop=4 |
+			\ set softtabstop=4 |
+			\ set shiftwidth=4 |
+			\ set textwidth=79 |
+			\ set expandtab |
+			\ set autoindent |
+			\ set fileformat=unix
 
 
 au BufNewFile,BufRead *.js, *.html, *.css
-\ set tabstop=2 |
-\ set softtabstop=2 |
-\ set shiftwidth=2
+			\ set tabstop=2 |
+			\ set softtabstop=2 |
+			\ set shiftwidth=2
 
 au BufNewFile,BufRead *.vimrc
-\ set tabstop=4 |
-\ set softtabstop=4 |
-\ set shiftwidth=4
+			\ set tabstop=4 |
+			\ set softtabstop=4 |
+			\ set shiftwidth=4
 
-set encoding=utf-8
 
-let python_highlight_all=1
-syntax on
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
-set nu
 
-hi BadWhitespace guifg=gray guibg=red ctermfg=gray ctermbg=red
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+" deoplete-go settings
+let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+let g:deoplete#sources#go#use_cache = 1
+let g:deoplete#sources#go#json_directory = '~/.cache/deoplete/go/'
 
-"python with virtualenv support
-py << EOF
-import os
-import sys
-if 'VIRTUAL_ENV' in os.environ:
-  project_base_dir = os.environ['VIRTUAL_ENV']
-  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-  execfile(activate_this, dict(__file__=activate_this))
-EOF
 
-set clipboard=unnamed
+let g:ackprg = 'ag --nogroup --nocolor --column'
+silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
+map <F5> :call CompileRun()<CR>
+func! CompileRun()
+	▸   exec "w"
+	▸   if &filetype == 'c'
+	▸   ▸   exec "!g++ % -o %<"
+	▸   ▸   exec "!time ./%<"
+	▸   elseif &filetype == 'cpp'
+	▸   ▸   exec "!g++ % -o %<"
+	▸   ▸   exec "!time ./%<"
+	▸   elseif &filetype == 'java'
+	▸   ▸   exec "!javac %<"
+	▸   ▸   exec "!time java %<"
+	▸   elseif &filetype == 'sh'
+	▸   ▸   :!time bash %
+	▸   elseif &filetype == 'python'
+	▸   ▸   exec "!time python %"
+	▸   elseif &filetype == 'go'
+	▸   ▸   exec "!time go run %"
+	▸   endif
+endfunc
 
 autocmd vimenter * NERDTree
 
-
-map <F2> :NERDTreeToggle<CR>
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
 
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+map <F2> :NERDTreeToggle<CR>
 
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
-map <F5> :call CompileRun()<CR>
-func! CompileRun()
-	exec "w"
-	if &filetype == 'c'
-		exec "!g++ % -o %<"
-		exec "!time ./%<"
-	elseif &filetype == 'cpp'
-		exec "!g++ % -o %<"
-		exec "!time ./%<"
-	elseif &filetype == 'java'
-		exec "!javac %<"
-		exec "!time java %<"
-	elseif &filetype == 'sh'
-		:!time bash %
-	elseif &filetype == 'python'
-		exec "!time python %"
-	elseif &filetype == 'go'
-		exec "!time go run %"
-	endif
-endfunc
+hi BadWhitespace guifg=gray guibg=red ctermfg=gray ctermbg=red
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
-let g:ycm_server_python_interpreter='/usr/bin/python'
-let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
-
-let g:ycm_python_binary_path = 'python'
-
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-let g:airline#extensions#tabline#enabled = 1
-
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-
-
-" Check Python files with flake8 and pylint.
-let b:ale_linters = ['flake8', 'pylint']
-" " Fix Python files with autopep8 and yapf.
-let b:ale_fixers = ['autopep8', 'yapf']
-" " Disable warnings about trailing whitespace for Python files.
-let b:ale_warn_about_trailing_whitespace = 0
-
-let g:ale_lint_on_text_changed = 'never'
-" You can disable this option too
-" " if you don't want linters to run on opening a file
-let g:ale_lint_on_enter = 0
-
-let g:ale_sign_error = '>>'
-let g:ale_sign_warning = '--'
-
-let g:airline_solarized_bg='deus'
-
-"ycm跳转
-nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-inoremap <C-l> <Right>

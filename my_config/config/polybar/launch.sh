@@ -20,7 +20,10 @@ killall -q polybar
 
 #polybar example &
 MONITOR=eDP1 polybar bottom &
+
 MONITOR=eDP1 polybar top &
+
+
 
 
 
