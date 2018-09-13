@@ -1,0 +1,39 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin.userdb
+#@/db_type	userdb
+#@/rime_version	1.3.1
+#@/tick	45
+#@/user_id	506d0a92-0de9-446f-af46-f748eaa5422b
+ai shang 	愛上	c=0 d=0.1 t=41
+ai shang di fang 	愛上地方	c=3 d=2.98506 t=44
+biao dian 	標點	c=2 d=1.99501 t=45
+cheng du 	程度	c=1 d=0.951229 t=45
+de 	的	c=2 d=1.88412 t=45
+di fang 	地方	c=0 d=0.1 t=41
+ding zhi 	定製	c=3 d=2.8452 t=45
+ji chu 	基礎	c=1 d=0.970446 t=45
+jiao ni 	教你	c=1 d=1 t=45
+mo ren 	默認	c=1 d=0.97531 t=45
+ni 	你	c=2 d=2.07009 t=45
+ni de 	你的	c=1 d=1 t=41
+ni hao 	你好	c=7 d=6.58572 t=45
+ni hao ni shi 	你好你是	c=2 d=1.96531 t=45
+ni hao ya 	你好呀	c=1 d=0.965605 t=45
+ni shi 	你是	c=0 d=0.097531 t=45
+ni shi bu shi 	你是不是	c=1 d=0.955997 t=45
+ni shi bu shi zhe yang 	你是不是這樣	c=1 d=0.932394 t=45
+ni zen me zhe yang 	你怎麼這樣	c=1 d=0.985112 t=45
+quan 	全	c=1 d=0.985112 t=45
+ren 	人	c=1 d=0.970446 t=45
+ru guo 	如果	c=2 d=1.9218 t=45
+ru he 	如何	c=1 d=0.941765 t=45
+she zhi 	設置	c=1 d=0.980199 t=45
+shi bu shi 	是不是	c=2 d=1.95818 t=45
+shui 	誰	c=1 d=1 t=45
+wo 	我	c=1 d=0.99005 t=45
+wo gai 	我該	c=1 d=0.995012 t=45
+ya 	呀	c=1 d=1.05687 t=45
+ying wen 	英文	c=1 d=0.99005 t=45
+zen me 	怎麼	c=0 d=0.0980199 t=45
+zen me ban 	怎麼辦	c=1 d=1 t=45
+zhe yang 	這樣	c=1 d=1.13554 t=45
