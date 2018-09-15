@@ -21,9 +21,6 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'Raimondi/delimitMate'
 Plug 'nvie/vim-flake8'
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'zchee/deoplete-go', { 'do': 'make'}
-
 Plug 'neomake/neomake'
 Plug 'mhinz/vim-startify'
 Plug 'vim-scripts/wildfire.vim'
@@ -35,7 +32,6 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'jnurmine/Zenburn'
 
 
-Plug 'fatih/vim-go', { 'for': 'go'  }
 " Plug '...'
 " ...
 call plug#end()
