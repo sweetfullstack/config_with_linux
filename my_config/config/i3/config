@@ -28,7 +28,7 @@ bindsym $mod+n  exec xfce4-terminal -x sh -c 'ncmpcpp'
 #############################################################################################################################
 
 ##换大写和ctrl
-exec xfce4-terminal -x sh -c 'xmodmap .xmodmap'
+exec --no-startup-id xfce4-terminal -x sh -c 'xmodmap ~/.xmodmap'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -253,8 +253,6 @@ bindsym $mod+Shift+0    move container to workspace $ws10
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 #开机启动mpd音乐模块
 exec  --no-startup-id mpd ~/.config/mpd/mpd.conf
-#fcitx
-exec --no-startup-id fcitx
 #deepin截图
 bindsym $mod+Shift+p  exec --no-startup-id  deepin-screenshot
 #启动火狐浏览器
@@ -297,3 +295,7 @@ bindsym Ctrl+Home   exec mpc toggle
 #锁屏
 #bindsym  $mod+p exec lock
 
+#fcitx
+#exec --no-startup-id fcitx
+#ibus
+exec --no-startup-id ibus-daemon
