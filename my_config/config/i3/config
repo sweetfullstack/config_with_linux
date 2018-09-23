@@ -279,7 +279,6 @@ bindsym $mod+Ctrl+Left  exec "amixer -q sset Master,0 1- unmute"
 
 ###音乐控制
 ######################
-exec mpd ~/.config/mpd/mpd.conf
 
 #上一首
 bindsym Ctrl+Up  exec mpc prev
