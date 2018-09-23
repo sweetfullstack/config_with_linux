@@ -27,6 +27,7 @@ bindsym $mod+Shift+x exec xfce4-terminal -x sh -c 'sudo ranger'
 bindsym $mod+n  exec xfce4-terminal -x sh -c 'ncmpcpp'
 #############################################################################################################################
 
+
 ##换大写和ctrl
 exec --no-startup-id xfce4-terminal -x sh -c 'xmodmap ~/.xmodmap'
 
@@ -278,6 +279,7 @@ bindsym $mod+Ctrl+Left  exec "amixer -q sset Master,0 1- unmute"
 
 ###音乐控制
 ######################
+exec mpd ~/.config/mpd/mpd.conf
 
 #上一首
 bindsym Ctrl+Up  exec mpc prev
@@ -299,3 +301,5 @@ bindsym Ctrl+Home   exec mpc toggle
 #exec --no-startup-id fcitx
 #ibus
 exec --no-startup-id ibus-daemon
+
+
