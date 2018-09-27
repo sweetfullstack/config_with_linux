@@ -297,8 +297,8 @@ bindsym Ctrl+Home   exec mpc toggle
 #bindsym  $mod+p exec lock
 
 #fcitx
-#exec --no-startup-id fcitx
+exec --no-startup-id fcitx
 #ibus
-exec --no-startup-id ibus-daemon
+#exec --no-startup-id ibus-daemon
 
 
