@@ -16,9 +16,9 @@ set encoding=utf-8
 set ic
 
 " tab宽度
-set tabstop=4
-set cindent shiftwidth=4
-set autoindent shiftwidth=4
+set tabstop=2
+set cindent shiftwidth=2
+set autoindent shiftwidth=2
 
 
 " 设置空白字符的视觉提示
@@ -50,10 +50,6 @@ au BufNewFile,BufRead *.py
                         \ set autoindent |
                         \ set fileformat=unix
 
-au BufNewFile,BufRead *.js, *.html, *.css
-                        \ set tabstop=2 |
-                        \ set softtabstop=2 |
-                        \ set shiftwidth=2
 
 au BufNewFile,BufRead *.vimrc
                         \ set tabstop=4 |
