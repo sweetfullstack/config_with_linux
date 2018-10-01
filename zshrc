@@ -4,6 +4,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 plugins=(
   git
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
