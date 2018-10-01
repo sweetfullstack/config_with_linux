@@ -9,7 +9,7 @@ font pango: Hack-BoldItalic 12, monaco yahei,  fontAwesome 11
 #new_window pixel
 
 # 打开终端
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec xfce4-terminal
 
 # start drofi dmenu
 bindsym $mod+Tab exec --no-startup-id rofi -show window
@@ -18,18 +18,18 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 
 
 ####启动ranger文件管理器
-bindsym $mod+x exec terminator -x sh -c 'ranger'
+bindsym $mod+x exec xfce4-terminal -x sh -c 'ranger'
 
 ####root权限启动ranger
-bindsym $mod+Shift+x exec terminator -x sh -c 'sudo ranger'
+bindsym $mod+Shift+x exec xfce4-terminal -x sh -c 'sudo ranger'
 
 ####ncmpcpp音乐播放器
-bindsym $mod+n  exec terminator -x sh -c 'ncmpcpp'
+bindsym $mod+n  exec xfce4-terminal -x sh -c 'ncmpcpp'
 #############################################################################################################################
 
 
 ##换大写和ctrl
-exec --no-startup-id terminator -x sh -c 'xmodmap ~/.xmodmap'
+exec --no-startup-id xfce4-terminal -x sh -c 'xmodmap ~/.xmodmap'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -103,7 +103,7 @@ bindsym $mod+space focus mode_toggle
 
 #############################################################################################################################
 
-#colors
+G#colors
 # class                 border  backgr. text    indicator child_border
 client.focused          #bd93f9 #FFFFFF #000000 #000000   #000000
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #000000
@@ -263,6 +263,11 @@ bindsym $mod+Shift+g exec --no-startup-id  chromium
 
 ####调节亮度
 
+bindsym $mod+Shift+x exec xfce4-terminal -x sh -c 'sudo ranger'
+#亮度+5
+bindsym $mod+<F6>  exec xfce4-terminal -x sh -c 'light -A 5'
+#亮度-5
+bindsym $mod+<F5>  exec xfce4-termianl -x sh -c 'light -U 5'
 
 ########调节声音
 bindsym $mod+Ctrl+Right exec "amixer -q sset Master,0 1+ unmute"
