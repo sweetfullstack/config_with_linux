@@ -143,24 +143,6 @@ for_window [window_role="gimp-toolbox"] floating disable; move center; resize gr
 #for_window [class="XTerm"] floating enable, border normal
 #for_window [class="feh"] floating enable, border normal
 
-# assigns focus
-#assign [class="Thunderbird"] $tag3
-
-#assign [class="Lollypop"] $tag5
-#for_window [class="Lollypop"] focus
-
-#assign [class="Code"] $tag6
-#for_window [class="Code"] focus
-
-#assign [class="WebTorrent"] $tag7
-#for_window [class="WebTorrent"] focus
-
-#assign [class="Nicotine"] $tag9
-#for_window [class="Nicotine"] focus
-
-#assign [class="Connman-gtk"] $tag10
-#for_window [class="Connman-gtk"] focus
-
 #toggle workspace's display screen
 bindsym $mod+less move workspace to output right
 bindsym $mod+Shift+less move workspace to output up
@@ -296,5 +278,3 @@ bindsym Ctrl+Home   exec mpc toggle
 exec --no-startup-id fcitx
 #ibus
 #exec --no-startup-id ibus-daemon
-
-
