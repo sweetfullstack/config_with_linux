@@ -2,6 +2,8 @@
 # mod key
 set $mod Mod4
 
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
 # 字体
 font pango: Hack-BoldItalic 12, monaco yahei,  fontAwesome 11
 
@@ -10,7 +12,8 @@ font pango: Hack-BoldItalic 12, monaco yahei,  fontAwesome 11
 
 # 打开终端
 bindsym $mod+Return exec terminator
-
+# 杀死当前窗口
+bindsym $mod+Shift+q kill
 # start drofi dmenu
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+Shift+d exec --no-startup-id rofi -show run
@@ -19,30 +22,31 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 
 ####启动ranger文件管理器
 bindsym $mod+x exec terminator -x sh -c 'ranger'
-
 ####root权限启动ranger
 bindsym $mod+Shift+x exec terminator -x sh -c 'sudo ranger'
-
 ####ncmpcpp音乐播放器
 bindsym $mod+n  exec terminator -x sh -c 'ncmpcpp'
+#deepin截图
+bindsym $mod+Shift+p  exec --no-startup-id  deepin-screenshot
+#opera
+bindsym $mod+Shift+o exec --no-startup-id opera
+#google
+bindsym $mod+Shift+g exec --no-startup-id  google-chrome-stable
+
 #############################################################################################################################
 
-
-##换大写和ctrl
-exec --no-startup-id terminator -x sh -c 'xmodmap ~/.xmodmap'
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
-
-# 杀死当前窗口
-bindsym $mod+Shift+q kill
-####
-#
 #透明
 exec compton -b
 #壁纸
 exec_always --no-startup-id feh --bg-scale ~/.config/i3/520.jpg
+#换大写和ctrl
+exec --no-startup-id terminator -x sh -c 'xmodmap ~/.xmodmap'
+#启动polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+#开机启动mpd音乐模块
+exec  --no-startup-id mpd ~/.config/mpd/mpd.conf
 
+#############################################################################################################################
 
 # change focus
 bindsym $mod+j focus left
@@ -130,6 +134,9 @@ bindsym $mod+a          gaps outer current plus 5
 bindsym $mod+Shift+a    gaps outer current minus 5
 
 
+#toggle workspace's display screen
+bindsym $mod+less move workspace to output right
+bindsym $mod+Shift+less move workspace to output up
 
 #############################################################################################################################
 
@@ -143,11 +150,7 @@ for_window [window_role="gimp-toolbox"] floating disable; move center; resize gr
 #for_window [class="XTerm"] floating enable, border normal
 #for_window [class="feh"] floating enable, border normal
 
-#toggle workspace's display screen
-bindsym $mod+less move workspace to output right
-bindsym $mod+Shift+less move workspace to output up
 
-#assign workspace to screens
 ######################################################################################
 #显示器LVDS-1请改成polybar -m的结果##########################################################
 
@@ -202,7 +205,6 @@ set $ws2 "2:  "
 set $ws3 "3:  "
 set $ws4 "4:  "
 set $ws5 "5:  "
-#set $ws5 "5:  "
 set $ws6 "6:  "
 set $ws7 "7:  "
 set $ws8 "8:  "
@@ -233,16 +235,7 @@ bindsym $mod+Shift+8    move container to workspace $ws8
 bindsym $mod+Shift+9    move container to workspace $ws9
 bindsym $mod+Shift+0    move container to workspace $ws10
 
-#启动polybar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
-#开机启动mpd音乐模块
-exec  --no-startup-id mpd ~/.config/mpd/mpd.conf
-#deepin截图
-bindsym $mod+Shift+p  exec --no-startup-id  deepin-screenshot
-#opera
-bindsym $mod+Shift+o exec --no-startup-id opera
-#google
-bindsym $mod+Shift+g exec --no-startup-id  google-chrome-stable
+
 
 ####调节亮度
 
@@ -257,7 +250,6 @@ bindsym $mod+Ctrl+Left  exec "amixer -q sset Master,0 1- unmute"
 #bindsym $mod+Ctrl+Left exec  "pulsemixer --change-volume  -2"
 
 ###音乐控制
-######################
 
 #上一首
 bindsym Ctrl+Up  exec mpc prev
