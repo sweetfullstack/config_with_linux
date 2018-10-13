@@ -25,7 +25,7 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#263647"
+    background_color = "#2e3436"
     background_type = transparent
     cursor_color = "#bbbbbb"
     font = Hack Italic 14
