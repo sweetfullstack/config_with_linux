@@ -9,7 +9,7 @@
 
 [colors]
 background = #191919
-;background = #282a36
+background_bottom =#75000000
 background-alt = #444
 foreground = #dfdfdf
 ;foreground = #ff6ff3
@@ -111,7 +111,7 @@ offset-x = 0
 offset-y = 0
 
 ;background = ${xrdb:color9}
-background = ${colors.background}
+background = ${colors.background_bottom}
 foreground = ${colors.foreground}
 
 overline-size = 0
