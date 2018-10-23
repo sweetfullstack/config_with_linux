@@ -73,7 +73,7 @@ module-margin-right = 2
 
 
 font-0 = Hack-BoldItalic:fixed:pixelsize=12;1
-font-1 = unifont:pixelsize=12:antialias=false;1
+font-1 =source han sans cn:pixelsize=12:style=Italic:antialias=true;1
 font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
 font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=12;1"
 font-4 = "material icons:pixelsize=16;3"
@@ -129,7 +129,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-0 = Hack-BoldItalic:fixed:pixelsize=12;1
-font-1 = unifont:pixelsize=12:antialias=false;1
+font-1 =source han sans cn:pixelsize=12:style=Italic:antialias=true;1
 font-2 = "Font Awesome 5 Free:style=Solid:pixelsize=12;1"
 font-3 = "Font Awesome 5 Brands:style=Regular:pixelsize=12;1"
 font-4 = "material icons:pixelsize=16;3"
