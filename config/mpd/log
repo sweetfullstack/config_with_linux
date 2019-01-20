@@ -1,0 +1,1147 @@
+Oct 17 14:10 : exception: Failed to open /home/sweet/.config/mpd/state: No such file or directory
+Oct 17 14:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 14:10 : update: added /张国荣 - 千千阙歌.ape
+Oct 17 14:10 : client: [0] opened from 127.0.0.1:49298
+Oct 17 14:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 14:22 : client: [0] opened from 127.0.0.1:40666
+Oct 17 14:32 : client: [1] opened from 127.0.0.1:40834
+Oct 17 14:32 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:32 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:32 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:32 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:32 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:32 : player: problems opening audio device while playing "张国荣 - 千千阙歌.ape"
+Oct 17 14:32 : client: [1] closed
+Oct 17 14:36 : client: [2] opened from 127.0.0.1:40998
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : client: [2] closed
+Oct 17 14:36 : client: [3] opened from 127.0.0.1:41002
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : client: [3] closed
+Oct 17 14:36 : client: [4] opened from 127.0.0.1:41012
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : client: [5] opened from 127.0.0.1:41016
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : exception: Failed to open "pcm" [alsa]
+Oct 17 14:36 : exception: nested: Failed to open ALSA device "default": No such file or directory
+Oct 17 14:36 : client: [5] closed
+Oct 17 14:36 : client: [4] closed
+Oct 17 14:36 : player: played "张国荣 - 千千阙歌.ape"
+Oct 17 14:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 14:37 : client: [0] opened from 127.0.0.1:36122
+Oct 17 14:37 : client: [1] opened from 127.0.0.1:36126
+Oct 17 14:37 : client: [1] closed
+Oct 17 14:37 : client: [2] opened from 127.0.0.1:36130
+Oct 17 14:37 : client: [2] closed
+Oct 17 14:52 : client: [3] opened from 127.0.0.1:36916
+Oct 17 14:52 : client: [3] closed
+Oct 17 14:52 : client: [4] opened from 127.0.0.1:36922
+Oct 17 14:52 : client: [4] closed
+Oct 17 14:56 : ffmpeg/ape: packet size is not a multiple of 4. extra bytes at the end will be skipped.
+Oct 17 14:57 : player: played "张国荣 - 千千阙歌.ape"
+Oct 17 15:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 15:10 : client: [0] opened from 127.0.0.1:34526
+Oct 17 15:48 : avahi: Client Disconnected, will reconnect shortly
+Oct 17 15:48 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 17 15:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 15:49 : client: [0] opened from 127.0.0.1:37982
+Oct 17 19:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 19:50 : client: [0] opened from 127.0.0.1:39914
+Oct 17 19:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 19:56 : client: [0] opened from 127.0.0.1:46322
+Oct 17 20:17 : client: [1] opened from 127.0.0.1:47560
+Oct 17 20:17 : client: [1] closed
+Oct 17 20:19 : client: [2] opened from 127.0.0.1:47612
+Oct 17 20:19 : client: [2] closed
+Oct 17 20:21 : ffmpeg/ape: packet size is not a multiple of 4. extra bytes at the end will be skipped.
+Oct 17 20:21 : player: played "张国荣 - 千千阙歌.ape"
+Oct 17 20:24 : client: [3] opened from 127.0.0.1:47758
+Oct 17 20:24 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 17 20:24 : update: added /胡夏 - 那些年.ape
+Oct 17 20:24 : update: added /薛之谦-认真的雪.ape
+Oct 17 20:24 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 17 20:25 : client: [3] closed
+Oct 17 20:29 : player: played "薛之谦-认真的雪.ape"
+Oct 18 07:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 07:16 : client: [0] opened from 127.0.0.1:43080
+Oct 18 07:22 : client: [1] opened from 127.0.0.1:43160
+Oct 18 07:22 : client: [1] closed
+Oct 18 07:26 : ffmpeg/ape: packet size is not a multiple of 4. extra bytes at the end will be skipped.
+Oct 18 07:26 : player: played "张国荣 - 千千阙歌.ape"
+Oct 18 07:31 : player: played "薛之谦-认真的雪.ape"
+Oct 18 09:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 09:22 : client: [0] opened from 127.0.0.1:34222
+Oct 18 09:42 : client: [1] opened from 127.0.0.1:35498
+Oct 18 09:42 : client: [1] closed
+Oct 18 09:42 : client: [2] opened from 127.0.0.1:35500
+Oct 18 09:42 : client: [2] closed
+Oct 18 09:48 : client: [3] opened from 127.0.0.1:35648
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 18 09:48 : exception: Failed to open "pcm" [alsa]
+Oct 18 09:48 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 18 09:48 : exception: Failed to open "pcm" [alsa]
+Oct 18 09:48 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 18 09:48 : client: [3] closed
+Oct 18 09:53 : client: [4] opened from 127.0.0.1:35728
+Oct 18 09:53 : player: played "张国荣 - 千千阙歌.ape"
+Oct 18 09:53 : client: [4] closed
+Oct 19 19:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 19 19:30 : client: [0] opened from 127.0.0.1:46984
+Oct 20 21:40 : avahi: Client Disconnected, will reconnect shortly
+Oct 20 21:40 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 21 11:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 11:33 : client: [0] opened from 127.0.0.1:38748
+Oct 21 11:53 : client: [1] opened from 127.0.0.1:39658
+Oct 21 11:53 : client: [1] closed
+Oct 21 11:56 : client: [2] opened from 127.0.0.1:39740
+Oct 21 11:56 : client: [2] closed
+Oct 21 13:05 : avahi: Client Disconnected, will reconnect shortly
+Oct 21 13:05 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 21 13:05 : player: played "张国荣 - 千千阙歌.ape"
+Oct 21 14:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 14:55 : client: [0] opened from 127.0.0.1:34428
+Oct 21 16:11 : avahi: Client Disconnected, will reconnect shortly
+Oct 21 16:11 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 21 16:11 : player: played "张国荣 - 千千阙歌.ape"
+Oct 21 19:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 19:34 : client: [0] opened from 127.0.0.1:55066
+Oct 21 21:37 : client: [1] opened from 127.0.0.1:58252
+Oct 21 21:37 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 21 21:37 : update: added /王大毛+-+去年夏天.flac
+Oct 21 21:37 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 21 21:37 : client: [1] closed
+Oct 21 21:39 : client: [2] opened from 127.0.0.1:58364
+Oct 21 21:39 : client: [2] closed
+Oct 22 05:48 : player: played "王大毛+-+去年夏天.flac"
+Oct 22 19:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 22 19:45 : client: [0] opened from 127.0.0.1:41200
+Oct 22 21:08 : client: [1] opened from 127.0.0.1:44606
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 22 21:08 : exception: Failed to open "pcm" [alsa]
+Oct 22 21:08 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 22 21:08 : exception: Failed to open "pcm" [alsa]
+Oct 22 21:08 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 22 21:08 : client: [1] closed
+Oct 22 21:08 : client: [2] opened from 127.0.0.1:44608
+Oct 22 21:08 : client: [2] closed
+Oct 22 21:09 : client: [3] opened from 127.0.0.1:44610
+Oct 22 21:09 : client: [3] closed
+Oct 23 06:43 : avahi: Client Disconnected, will reconnect shortly
+Oct 23 06:43 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 23 06:43 : player: played "王大毛+-+去年夏天.flac"
+Oct 23 10:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 23 10:46 : client: [0] opened from 127.0.0.1:51868
+Oct 23 10:46 : client: [1] opened from 127.0.0.1:51870
+Oct 23 10:46 : client: [1] closed
+Oct 23 10:47 : player: played "王大毛+-+去年夏天.flac"
+Oct 23 14:28 : avahi: Client Disconnected, will reconnect shortly
+Oct 23 14:28 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 23 18:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 23 18:26 : client: [0] opened from 127.0.0.1:60332
+Oct 23 18:26 : client: [1] opened from 127.0.0.1:60340
+Oct 23 18:26 : client: [1] closed
+Oct 23 18:27 : client: [2] opened from 127.0.0.1:60342
+Oct 23 18:27 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 23 18:27 : client: [3] opened from 127.0.0.1:60356
+Oct 23 18:27 : client: [3] closed
+Oct 23 18:27 : client: [4] opened from 127.0.0.1:60366
+Oct 23 18:27 : client: [4] closed
+Oct 23 18:27 : client: [5] opened from 127.0.0.1:60368
+Oct 23 18:27 : client: [5] closed
+Oct 23 18:27 : client: [6] opened from 127.0.0.1:60370
+Oct 23 18:27 : client: [6] closed
+Oct 23 18:27 : client: [7] opened from 127.0.0.1:60372
+Oct 23 18:27 : client: [7] closed
+Oct 23 18:27 : client: [2] closed
+Oct 23 18:27 : client: [8] opened from 127.0.0.1:60374
+Oct 23 18:27 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 23 18:27 : client: [8] closed
+Oct 23 18:30 : client: [9] opened from 127.0.0.1:60818
+Oct 23 18:30 : client: [9] closed
+Oct 23 19:05 : client: [10] opened from 127.0.0.1:33654
+Oct 23 19:05 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 23 19:05 : update: added /一百万个可能+-+Christine+welch.mp3
+Oct 23 19:05 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Oct 23 19:05 : client: [10] closed
+Oct 23 19:09 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 23 19:12 : client: [0] closed
+Oct 23 19:12 : client: [11] opened from 127.0.0.1:33816
+Oct 23 19:12 : client: [12] opened from 127.0.0.1:33818
+Oct 23 19:12 : client: [12] closed
+Oct 23 19:12 : client: [13] opened from 127.0.0.1:33820
+Oct 23 19:12 : client: [13] closed
+Oct 23 19:12 : client: [14] opened from 127.0.0.1:33822
+Oct 23 19:12 : client: [14] closed
+Oct 23 19:12 : client: [15] opened from 127.0.0.1:33824
+Oct 23 19:12 : client: [15] closed
+Oct 23 19:13 : client: [11] closed
+Oct 23 19:13 : client: [16] opened from 127.0.0.1:33826
+Oct 23 19:13 : client: [17] opened from 127.0.0.1:33828
+Oct 23 19:13 : client: [17] closed
+Oct 23 19:13 : client: [18] opened from 127.0.0.1:33830
+Oct 23 19:13 : client: [18] closed
+Oct 23 19:13 : client: [19] opened from 127.0.0.1:33832
+Oct 23 19:13 : client: [19] closed
+Oct 23 19:14 : client: [16] closed
+Oct 23 19:14 : client: [20] opened from 127.0.0.1:33842
+Oct 23 19:17 : player: played "王大毛+-+去年夏天.flac"
+Oct 23 19:22 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 23 19:32 : client: [20] closed
+Oct 23 19:32 : client: [21] opened from 127.0.0.1:34496
+Oct 23 19:32 : client: [22] opened from 127.0.0.1:34498
+Oct 23 19:32 : client: [22] closed
+Oct 23 19:35 : client: [21] closed
+Oct 23 19:35 : client: [23] opened from 127.0.0.1:34500
+Oct 23 19:36 : client: [23] closed
+Oct 23 19:36 : client: [24] opened from 127.0.0.1:34502
+Oct 23 19:37 : ffmpeg/ape: packet size is not a multiple of 4. extra bytes at the end will be skipped.
+Oct 23 19:37 : player: played "张国荣 - 千千阙歌.ape"
+Oct 23 19:37 : client: [24] closed
+Oct 23 19:37 : client: [25] opened from 127.0.0.1:34504
+Oct 23 19:40 : client: [25] closed
+Oct 23 19:40 : client: [26] opened from 127.0.0.1:34506
+Oct 23 19:41 : client: [26] closed
+Oct 23 19:41 : player: played "薛之谦-认真的雪.ape"
+Oct 23 19:41 : client: [27] opened from 127.0.0.1:34508
+Oct 23 19:45 : player: played "王大毛+-+去年夏天.flac"
+Oct 23 19:46 : client: [27] closed
+Oct 23 19:46 : client: [28] opened from 127.0.0.1:34644
+Oct 23 19:46 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 23 19:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 23 19:47 : client: [0] opened from 127.0.0.1:58322
+Oct 23 19:47 : avahi: Client Disconnected, will reconnect shortly
+Oct 23 19:47 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 23 19:47 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 23 19:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 23 19:47 : client: [0] opened from 127.0.0.1:46398
+Oct 23 19:51 : client: [0] closed
+Oct 23 19:51 : client: [1] opened from 127.0.0.1:46516
+Oct 23 19:51 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 23 19:52 : client: [1] closed
+Oct 23 19:52 : client: [2] opened from 127.0.0.1:46644
+Oct 23 19:52 : client: [3] opened from 127.0.0.1:46646
+Oct 23 19:52 : client: [3] closed
+Oct 23 19:56 : ffmpeg/ape: packet size is not a multiple of 4. extra bytes at the end will be skipped.
+Oct 23 19:57 : player: played "张国荣 - 千千阙歌.ape"
+Oct 23 19:58 : client: [2] closed
+Oct 23 19:58 : client: [4] opened from 127.0.0.1:46768
+Oct 23 19:59 : client: [5] opened from 127.0.0.1:46952
+Oct 23 19:59 : client: [5] closed
+Oct 23 20:07 : client: [6] opened from 127.0.0.1:47444
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 23 20:07 : exception: Failed to open "pcm" [alsa]
+Oct 23 20:07 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 23 20:07 : exception: Failed to open "pcm" [alsa]
+Oct 23 20:07 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 23 20:07 : client: [6] closed
+Oct 23 20:08 : client: [4] closed
+Oct 23 20:08 : client: [7] opened from 127.0.0.1:47508
+Oct 23 22:02 : client: [8] opened from 127.0.0.1:53552
+Oct 23 22:02 : client: [8] closed
+Oct 23 22:02 : client: [9] opened from 127.0.0.1:53612
+Oct 23 22:02 : client: [9] closed
+Oct 24 10:19 : player: played "王大毛+-+去年夏天.flac"
+Oct 24 12:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 12:25 : client: [0] opened from 127.0.0.1:38288
+Oct 24 12:26 : client: [1] opened from 127.0.0.1:38290
+Oct 24 12:26 : client: [1] closed
+Oct 24 12:28 : client: [2] opened from 127.0.0.1:38814
+Oct 24 12:28 : client: [2] closed
+Oct 24 12:31 : client: [3] opened from 127.0.0.1:39264
+Oct 24 12:31 : client: [3] closed
+Oct 24 15:07 : avahi: Client Disconnected, will reconnect shortly
+Oct 24 15:07 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 24 15:07 : player: played "王大毛+-+去年夏天.flac"
+Oct 24 15:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 15:08 : client: [0] opened from 127.0.0.1:48444
+Oct 24 15:10 : player: played "王大毛+-+去年夏天.flac"
+Oct 24 15:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 15:10 : client: [0] opened from 127.0.0.1:53340
+Oct 24 16:49 : client: [1] opened from 127.0.0.1:59464
+Oct 24 16:49 : client: [1] closed
+Oct 24 16:50 : player: played "王大毛+-+去年夏天.flac"
+Oct 24 16:55 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 24 19:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 19:40 : client: [0] opened from 127.0.0.1:53908
+Oct 24 19:40 : client: [1] opened from 127.0.0.1:53910
+Oct 24 19:40 : client: [1] closed
+Oct 24 19:40 : client: [2] opened from 127.0.0.1:53912
+Oct 24 19:40 : client: [2] closed
+Oct 24 19:40 : client: [3] opened from 127.0.0.1:53914
+Oct 24 19:40 : client: [3] closed
+Oct 24 19:44 : player: played "王大毛+-+去年夏天.flac"
+Oct 24 19:46 : client: [4] opened from 127.0.0.1:53922
+Oct 24 19:46 : client: [4] closed
+Oct 25 00:03 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 25 14:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:07 : client: [0] opened from 127.0.0.1:46502
+Oct 25 19:12 : client: [1] opened from 127.0.0.1:55498
+Oct 25 19:12 : client: [1] closed
+Oct 25 19:15 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 26 00:30 : avahi: Client Disconnected, will reconnect shortly
+Oct 26 00:30 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 26 06:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 06:51 : client: [0] opened from 127.0.0.1:37454
+Oct 26 07:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 07:48 : client: [0] opened from 127.0.0.1:52782
+Oct 26 10:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 10:59 : client: [0] opened from 127.0.0.1:57464
+Oct 26 11:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 11:27 : client: [0] opened from 127.0.0.1:49506
+Oct 26 13:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 13:40 : client: [0] opened from 127.0.0.1:54546
+Oct 26 23:19 : client: [1] opened from 127.0.0.1:40020
+Oct 26 23:19 : client: [1] closed
+Oct 26 23:19 : client: [2] opened from 127.0.0.1:40028
+Oct 26 23:19 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 26 23:19 : client: [2] closed
+Oct 26 23:19 : client: [3] opened from 127.0.0.1:40064
+Oct 26 23:19 : client: [3] closed
+Oct 26 23:23 : client: [4] opened from 127.0.0.1:40074
+Oct 26 23:24 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 26 23:25 : client: [4] closed
+Oct 26 23:33 : client: [5] opened from 127.0.0.1:40288
+Oct 26 23:33 : client: [5] closed
+Oct 26 23:36 : client: [6] opened from 127.0.0.1:40734
+Oct 26 23:36 : client: [6] closed
+Oct 26 23:36 : client: [7] opened from 127.0.0.1:40752
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [7] closed
+Oct 26 23:36 : client: [8] opened from 127.0.0.1:40754
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [8] closed
+Oct 26 23:36 : client: [9] opened from 127.0.0.1:40756
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [9] closed
+Oct 26 23:36 : client: [10] opened from 127.0.0.1:40858
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [10] closed
+Oct 26 23:36 : client: [11] opened from 127.0.0.1:40868
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [11] closed
+Oct 26 23:36 : client: [12] opened from 127.0.0.1:40870
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [12] closed
+Oct 26 23:36 : client: [13] opened from 127.0.0.1:40872
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [13] closed
+Oct 26 23:36 : client: [14] opened from 127.0.0.1:40874
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : exception: Failed to open "pcm" [alsa]
+Oct 26 23:36 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Oct 26 23:36 : client: [14] closed
+Oct 26 23:36 : client: [15] opened from 127.0.0.1:40876
+Oct 26 23:38 : client: [15] closed
+Oct 26 23:41 : player: played "王大毛+-+去年夏天.flac"
+Oct 26 23:45 : player: played "一百万个可能+-+Christine+welch.mp3"
+Oct 27 11:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 11:34 : client: [0] opened from 127.0.0.1:50752
+Oct 27 16:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 16:05 : client: [0] opened from 127.0.0.1:37304
+Oct 27 23:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 23:33 : client: [0] opened from 127.0.0.1:39934
+Oct 28 16:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 16:50 : client: [0] opened from 127.0.0.1:53548
+Oct 28 16:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 16:51 : client: [0] opened from 127.0.0.1:42312
+Oct 28 23:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 23:02 : client: [0] opened from 127.0.0.1:58084
+Oct 29 14:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 14:23 : client: [0] opened from 127.0.0.1:49402
+Oct 29 21:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 21:23 : client: [0] opened from 127.0.0.1:35928
+Oct 30 10:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 30 10:55 : client: [0] opened from 127.0.0.1:36128
+Oct 30 21:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 30 21:29 : client: [0] opened from 127.0.0.1:39452
+Oct 31 11:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 11:01 : client: [0] opened from 127.0.0.1:44678
+Oct 31 14:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 14:01 : client: [0] opened from 127.0.0.1:47168
+Oct 31 18:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 18:15 : client: [0] opened from 127.0.0.1:59652
+Oct 31 18:24 : avahi: Client Disconnected, will reconnect shortly
+Oct 31 18:24 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 31 18:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 18:25 : client: [0] opened from 127.0.0.1:55636
+Oct 31 18:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 18:46 : client: [0] opened from 127.0.0.1:46196
+Nov 01 00:52 : avahi: Client Disconnected, will reconnect shortly
+Nov 01 00:52 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 01 08:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 08:05 : client: [0] opened from 127.0.0.1:45360
+Nov 01 09:42 : avahi: Client Disconnected, will reconnect shortly
+Nov 01 09:42 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 01 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 11:23 : client: [0] opened from 127.0.0.1:54864
+Nov 01 20:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 20:26 : client: [0] opened from 127.0.0.1:54824
+Nov 01 20:27 : client: [1] opened from 127.0.0.1:54826
+Nov 01 20:27 : client: [1] closed
+Nov 01 20:27 : client: [2] opened from 127.0.0.1:54828
+Nov 01 20:27 : client: [2] closed
+Nov 01 20:28 : client: [3] opened from 127.0.0.1:55086
+Nov 01 20:28 : client: [3] closed
+Nov 01 23:24 : player: played "王大毛+-+去年夏天.flac"
+Nov 02 21:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 02 21:15 : client: [0] opened from 127.0.0.1:39222
+Nov 02 21:15 : client: [1] opened from 127.0.0.1:39224
+Nov 02 21:15 : client: [1] closed
+Nov 02 21:19 : player: played "王大毛+-+去年夏天.flac"
+Nov 02 21:19 : client: [2] opened from 127.0.0.1:39372
+Nov 02 21:19 : client: [2] closed
+Nov 02 22:27 : client: [3] opened from 127.0.0.1:42524
+Nov 02 22:27 : client: [3] closed
+Nov 02 22:27 : client: [4] opened from 127.0.0.1:42526
+Nov 02 22:27 : client: [4] closed
+Nov 02 22:27 : client: [5] opened from 127.0.0.1:42528
+Nov 02 22:27 : client: [5] closed
+Nov 02 22:27 : client: [6] opened from 127.0.0.1:42556
+Nov 02 22:27 : client: [6] closed
+Nov 02 22:27 : client: [7] opened from 127.0.0.1:42558
+Nov 02 22:27 : client: [7] closed
+Nov 02 22:27 : client: [8] opened from 127.0.0.1:42560
+Nov 02 22:27 : client: [8] closed
+Nov 02 22:27 : client: [9] opened from 127.0.0.1:42562
+Nov 02 22:27 : client: [9] closed
+Nov 02 22:28 : client: [10] opened from 127.0.0.1:42642
+Nov 02 22:28 : client: [10] closed
+Nov 02 22:28 : client: [11] opened from 127.0.0.1:42644
+Nov 02 22:28 : client: [11] closed
+Nov 02 22:29 : client: [12] opened from 127.0.0.1:42730
+Nov 02 22:29 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 02 22:29 : client: [12] closed
+Nov 02 22:29 : client: [0] closed
+Nov 02 22:29 : client: [13] opened from 127.0.0.1:42744
+Nov 02 22:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 02 22:30 : update: added /张国荣 - 千千阙歌.ape
+Nov 02 22:30 : update: added /王大毛+-+去年夏天.flac
+Nov 02 22:30 : update: added /一百万个可能+-+Christine+welch.mp3
+Nov 02 22:30 : update: added /胡夏 - 那些年.ape
+Nov 02 22:30 : update: added /薛之谦-认真的雪.ape
+Nov 02 22:30 : client: [0] opened from 127.0.0.1:44044
+Nov 02 22:31 : client: [1] opened from 127.0.0.1:44180
+Nov 02 22:31 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 02 22:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Nov 02 22:31 : exception: Failed to open "pcm" (alsa)
+Nov 02 22:31 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Nov 02 22:31 : exception: Failed to open "pcm" (alsa)
+Nov 02 22:31 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Nov 02 22:31 : player: problems opening audio device while playing "一百万个可能+-+Christine+welch.mp3"
+Nov 02 22:31 : client: [1] closed
+Nov 03 11:14 : client: [2] opened from 127.0.0.1:49304
+Nov 03 11:14 : client: [2] closed
+Nov 03 11:18 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 04 22:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 04 22:26 : client: [0] opened from 127.0.0.1:57414
+Nov 04 22:26 : client: [0] closed
+Nov 05 09:41 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 05 09:41 : client: [0] opened from 127.0.0.1:50450
+Nov 05 09:41 : client: [1] opened from 127.0.0.1:50452
+Nov 05 09:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 05 09:41 : client: [1] closed
+Nov 05 09:41 : client: [2] opened from 127.0.0.1:50454
+Nov 05 09:41 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 05 09:41 : client: [2] closed
+Nov 05 09:45 : player: played "王大毛+-+去年夏天.flac"
+Nov 06 16:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 06 16:11 : client: [0] opened from 127.0.0.1:55978
+Nov 07 11:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 07 11:17 : client: [0] opened from 127.0.0.1:49966
+Nov 07 22:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 07 22:29 : client: [0] opened from 127.0.0.1:35284
+Nov 07 22:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 07 22:58 : client: [0] opened from 127.0.0.1:38446
+Nov 08 13:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 13:23 : client: [0] opened from 127.0.0.1:49694
+Nov 08 15:42 : client: [0] closed
+Nov 08 15:42 : client: [1] opened from 127.0.0.1:53258
+Nov 08 15:57 : client: [2] opened from 127.0.0.1:54124
+Nov 08 15:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 15:57 : client: [2] closed
+Nov 08 15:57 : client: [3] opened from 127.0.0.1:54126
+Nov 08 15:57 : client: [3] closed
+Nov 08 15:57 : client: [4] opened from 127.0.0.1:54204
+Nov 08 15:57 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 15:57 : client: [4] closed
+Nov 08 16:01 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 08 16:03 : client: [5] opened from 127.0.0.1:54450
+Nov 08 16:03 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:03 : client: [5] closed
+Nov 08 16:05 : client: [6] opened from 127.0.0.1:54530
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:06 : client: [6] closed
+Nov 08 16:06 : client: [7] opened from 127.0.0.1:54532
+Nov 08 16:10 : player: played "王大毛+-+去年夏天.flac"
+Nov 08 16:14 : player: played "薛之谦-认真的雪.ape"
+Nov 08 16:18 : exception: Failed to open /home/sweet/.config/mpd/playlists: No such file or directory
+Nov 08 16:18 : client: [7] closed
+Nov 08 16:23 : client: [8] opened from 127.0.0.1:54606
+Nov 08 16:23 : client: [8] closed
+Nov 08 21:41 : client: [9] opened from 127.0.0.1:37264
+Nov 08 21:41 : client: [9] closed
+Nov 09 01:48 : player: played "胡夏 - 那些年.ape"
+Nov 09 09:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 09:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 09:19 : client: [0] opened from 127.0.0.1:36228
+Nov 09 11:52 : client: [1] opened from 127.0.0.1:40516
+Nov 09 11:52 : client: [1] closed
+Nov 09 11:52 : client: [2] opened from 127.0.0.1:40518
+Nov 09 11:52 : client: [2] closed
+Nov 09 11:52 : client: [3] opened from 127.0.0.1:40520
+Nov 09 11:52 : client: [3] closed
+Nov 09 11:54 : player: played "胡夏 - 那些年.ape"
+Nov 09 21:59 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 21:59 : client: [0] opened from 127.0.0.1:33576
+Nov 10 21:43 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 21:43 : client: [0] opened from 127.0.0.1:36382
+Nov 12 17:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 17:02 : client: [0] opened from 127.0.0.1:52590
+Nov 12 19:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 19:06 : client: [0] opened from 127.0.0.1:55532
+Nov 13 05:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 05:55 : client: [0] opened from 127.0.0.1:44262
+Nov 13 05:55 : client: [1] opened from 127.0.0.1:44268
+Nov 13 05:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 05:55 : client: [1] closed
+Nov 13 05:55 : client: [2] opened from 127.0.0.1:44270
+Nov 13 05:55 : client: [2] closed
+Nov 13 07:55 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 13 08:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 08:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 08:04 : client: [0] opened from 127.0.0.1:55702
+Nov 13 10:57 : client: [1] opened from 127.0.0.1:59972
+Nov 13 10:57 : client: [1] closed
+Nov 13 11:02 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 13 11:06 : player: played "王大毛+-+去年夏天.flac"
+Nov 13 11:10 : player: played "薛之谦-认真的雪.ape"
+Nov 13 11:16 : player: played "胡夏 - 那些年.ape"
+Nov 13 15:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 15:16 : client: [0] opened from 127.0.0.1:57048
+Nov 13 19:30 : client: [1] opened from 127.0.0.1:60750
+Nov 13 19:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 19:30 : client: [1] closed
+Nov 13 19:30 : client: [2] opened from 127.0.0.1:60752
+Nov 13 19:30 : client: [2] closed
+Nov 13 19:34 : player: played "王大毛+-+去年夏天.flac"
+Nov 13 19:38 : player: played "薛之谦-认真的雪.ape"
+Nov 13 19:44 : player: played "胡夏 - 那些年.ape"
+Nov 14 20:45 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 20:45 : client: [0] opened from 127.0.0.1:37324
+Nov 15 08:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 08:01 : client: [0] opened from 127.0.0.1:33978
+Nov 15 12:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 12:46 : client: [0] opened from 127.0.0.1:44188
+Nov 15 12:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 12:47 : client: [0] opened from 127.0.0.1:50036
+Nov 16 07:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 07:55 : client: [0] opened from 127.0.0.1:40108
+Nov 16 14:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 14:22 : client: [0] opened from 127.0.0.1:52984
+Nov 16 14:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 14:23 : client: [0] opened from 127.0.0.1:34456
+Nov 20 08:38 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 20 08:38 : client: [0] opened from 127.0.0.1:43580
+Nov 26 00:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 00:06 : client: [0] opened from 127.0.0.1:35188
+Nov 27 00:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 00:18 : client: [0] opened from 127.0.0.1:57636
+Nov 27 22:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 22:33 : client: [0] opened from 127.0.0.1:38450
+Nov 27 22:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 22:34 : client: [0] opened from 127.0.0.1:43520
+Nov 28 07:51 : client: [1] opened from 127.0.0.1:49188
+Nov 28 07:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 28 07:51 : client: [1] closed
+Nov 28 07:56 : player: played "一百万个可能+-+Christine+welch.mp3"
+Nov 28 08:00 : player: played "王大毛+-+去年夏天.flac"
+Nov 28 08:04 : player: played "薛之谦-认真的雪.ape"
+Nov 28 08:08 : player: played "胡夏 - 那些年.ape"
+Dec 03 13:46 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 13:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 13:46 : client: [0] opened from 127.0.0.1:37604
+Dec 03 13:46 : client: [1] opened from 127.0.0.1:37606
+Dec 03 13:46 : client: [1] closed
+Dec 03 13:49 : player: played "胡夏 - 那些年.ape"
+Dec 05 08:36 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 08:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 08:36 : client: [0] opened from 127.0.0.1:45832
+Dec 05 08:36 : player: played "胡夏 - 那些年.ape"
+Dec 05 08:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 08:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 08:37 : client: [0] opened from 127.0.0.1:52208
+Dec 05 11:10 : client: [1] opened from 127.0.0.1:56282
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 05 11:10 : exception: Failed to open "pcm" (alsa)
+Dec 05 11:10 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 05 11:10 : exception: Failed to open "pcm" (alsa)
+Dec 05 11:10 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 05 11:10 : client: [1] closed
+Dec 05 11:10 : client: [2] opened from 127.0.0.1:56284
+Dec 05 11:10 : client: [2] closed
+Dec 05 11:10 : client: [3] opened from 127.0.0.1:56286
+Dec 05 11:10 : client: [3] closed
+Dec 05 11:10 : player: played "胡夏 - 那些年.ape"
+Dec 05 23:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 23:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 23:14 : client: [0] opened from 127.0.0.1:57594
+Dec 05 23:14 : player: played "胡夏 - 那些年.ape"
+Dec 05 23:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 23:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 05 23:14 : client: [0] opened from 127.0.0.1:56560
+Dec 06 08:01 : player: played "胡夏 - 那些年.ape"
+Dec 07 22:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 22:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 22:48 : client: [0] opened from 127.0.0.1:47528
+Dec 07 22:48 : player: played "胡夏 - 那些年.ape"
+Dec 07 22:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 22:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 22:48 : client: [0] opened from 127.0.0.1:50816
+Dec 08 07:57 : player: played "胡夏 - 那些年.ape"
+Dec 10 21:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 10 21:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 10 21:26 : client: [0] opened from 127.0.0.1:34884
+Dec 10 22:12 : player: played "胡夏 - 那些年.ape"
+Dec 19 10:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 10:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 10:14 : client: [0] opened from 127.0.0.1:51780
+Dec 19 10:14 : player: played "胡夏 - 那些年.ape"
+Dec 19 10:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 10:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 10:15 : client: [0] opened from 127.0.0.1:50312
+Dec 19 10:43 : client: [1] opened from 127.0.0.1:51382
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : client: [1] closed
+Dec 19 10:43 : client: [2] opened from 127.0.0.1:51384
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : client: [2] closed
+Dec 19 10:43 : client: [3] opened from 127.0.0.1:51386
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : exception: Failed to open "pcm" (alsa)
+Dec 19 10:43 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 19 10:43 : client: [3] closed
+Dec 19 10:43 : client: [4] opened from 127.0.0.1:51388
+Dec 19 10:43 : player: played "胡夏 - 那些年.ape"
+Dec 19 10:43 : client: [4] closed
+Dec 19 11:07 : client: [5] opened from 127.0.0.1:52280
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [5] closed
+Dec 19 11:07 : client: [6] opened from 127.0.0.1:52282
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [6] closed
+Dec 19 11:07 : client: [7] opened from 127.0.0.1:52284
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [7] closed
+Dec 19 11:07 : client: [8] opened from 127.0.0.1:52286
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [8] closed
+Dec 19 11:07 : client: [9] opened from 127.0.0.1:52288
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [9] closed
+Dec 19 11:07 : client: [10] opened from 127.0.0.1:52290
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [10] closed
+Dec 19 11:07 : client: [11] opened from 127.0.0.1:52304
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [11] closed
+Dec 19 11:07 : client: [12] opened from 127.0.0.1:52306
+Dec 19 11:07 : exception: Not playing
+Dec 19 11:07 : client: [12] closed
+Dec 19 11:19 : client: [13] opened from 127.0.0.1:52728
+Dec 19 11:19 : exception: Not playing
+Dec 19 11:19 : client: [13] closed
+Dec 19 11:19 : client: [14] opened from 127.0.0.1:52730
+Dec 19 11:19 : exception: Not playing
+Dec 19 11:19 : client: [14] closed
+Dec 19 11:19 : client: [15] opened from 127.0.0.1:52732
+Dec 19 11:19 : exception: Not playing
+Dec 19 11:19 : client: [15] closed
+Dec 19 11:19 : client: [16] opened from 127.0.0.1:52734
+Dec 19 11:19 : exception: Not playing
+Dec 19 11:19 : client: [16] closed
+Dec 19 19:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 19:29 : client: [0] opened from 127.0.0.1:55728
+Dec 19 23:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 23:14 : client: [0] opened from 127.0.0.1:43852
+Dec 19 23:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 23:14 : client: [0] opened from 127.0.0.1:35294
+Dec 20 12:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 12:21 : client: [0] opened from 127.0.0.1:51232
+Dec 20 14:08 : client: [1] opened from 127.0.0.1:55406
+Dec 20 14:08 : exception: Not playing
+Dec 20 14:08 : client: [1] closed
+Dec 20 14:08 : client: [2] opened from 127.0.0.1:55408
+Dec 20 14:08 : exception: Not playing
+Dec 20 14:08 : client: [2] closed
+Dec 20 14:08 : client: [3] opened from 127.0.0.1:55410
+Dec 20 14:08 : exception: Not playing
+Dec 20 14:08 : client: [3] closed
+Dec 20 14:12 : client: [4] opened from 127.0.0.1:55556
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [4] closed
+Dec 20 14:12 : client: [5] opened from 127.0.0.1:55562
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [5] closed
+Dec 20 14:12 : client: [6] opened from 127.0.0.1:55564
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [6] closed
+Dec 20 14:12 : client: [7] opened from 127.0.0.1:55566
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [7] closed
+Dec 20 14:12 : client: [8] opened from 127.0.0.1:55568
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [8] closed
+Dec 20 14:12 : client: [9] opened from 127.0.0.1:55570
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [9] closed
+Dec 20 14:12 : client: [10] opened from 127.0.0.1:55572
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [10] closed
+Dec 20 14:12 : client: [11] opened from 127.0.0.1:55574
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [11] closed
+Dec 20 14:12 : client: [12] opened from 127.0.0.1:55576
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [12] closed
+Dec 20 14:12 : client: [13] opened from 127.0.0.1:55578
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [13] closed
+Dec 20 14:12 : client: [14] opened from 127.0.0.1:55580
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [14] closed
+Dec 20 14:12 : client: [15] opened from 127.0.0.1:55582
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [15] closed
+Dec 20 14:12 : client: [16] opened from 127.0.0.1:55584
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [16] closed
+Dec 20 14:12 : client: [17] opened from 127.0.0.1:55586
+Dec 20 14:12 : exception: Not playing
+Dec 20 14:12 : client: [17] closed
+Dec 20 14:13 : client: [18] opened from 127.0.0.1:55592
+Dec 20 14:13 : exception: Not playing
+Dec 20 14:13 : client: [18] closed
+Dec 20 15:32 : client: [19] opened from 127.0.0.1:58260
+Dec 20 15:32 : exception: Not playing
+Dec 20 15:32 : client: [19] closed
+Dec 20 15:33 : client: [20] opened from 127.0.0.1:58278
+Dec 20 15:33 : exception: Not playing
+Dec 20 15:33 : client: [20] closed
+Dec 20 15:37 : client: [21] opened from 127.0.0.1:58398
+Dec 20 15:37 : exception: Not playing
+Dec 20 15:37 : client: [21] closed
+Dec 20 20:05 : client: [22] opened from 127.0.0.1:41780
+Dec 20 20:05 : exception: Not playing
+Dec 20 20:05 : client: [22] closed
+Dec 20 20:05 : client: [23] opened from 127.0.0.1:41782
+Dec 20 20:05 : exception: Not playing
+Dec 20 20:05 : client: [23] closed
+Dec 20 20:05 : client: [24] opened from 127.0.0.1:41784
+Dec 20 20:05 : exception: Not playing
+Dec 20 20:05 : client: [24] closed
+Dec 20 20:05 : client: [25] opened from 127.0.0.1:41786
+Dec 20 20:05 : exception: Not playing
+Dec 20 20:05 : client: [25] closed
+Dec 20 21:58 : client: [26] opened from 127.0.0.1:45310
+Dec 20 21:58 : client: [26] closed
+Dec 20 21:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : player: problems opening audio device while playing "胡夏 - 那些年.ape"
+Dec 20 21:58 : client: [27] opened from 127.0.0.1:45312
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [27] closed
+Dec 20 21:58 : client: [28] opened from 127.0.0.1:45314
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [28] closed
+Dec 20 21:58 : client: [29] opened from 127.0.0.1:45316
+Dec 20 21:58 : client: [30] opened from 127.0.0.1:45318
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [29] closed
+Dec 20 21:58 : client: [30] closed
+Dec 20 21:58 : client: [31] opened from 127.0.0.1:45320
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [31] closed
+Dec 20 21:58 : client: [32] opened from 127.0.0.1:45328
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [32] closed
+Dec 20 21:58 : client: [33] opened from 127.0.0.1:45330
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [33] closed
+Dec 20 21:58 : client: [34] opened from 127.0.0.1:45336
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [34] closed
+Dec 20 21:58 : client: [35] opened from 127.0.0.1:45338
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [35] closed
+Dec 20 21:58 : client: [36] opened from 127.0.0.1:45340
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [36] closed
+Dec 20 21:58 : client: [37] opened from 127.0.0.1:45342
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [37] closed
+Dec 20 21:58 : client: [38] opened from 127.0.0.1:45344
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : exception: Failed to open "pcm" (alsa)
+Dec 20 21:58 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 21:58 : client: [38] closed
+Dec 20 22:02 : client: [39] opened from 127.0.0.1:45550
+Dec 20 22:02 : player: played "胡夏 - 那些年.ape"
+Dec 20 22:02 : client: [39] closed
+Dec 20 23:41 : client: [40] opened from 127.0.0.1:49476
+Dec 20 23:41 : client: [40] closed
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : player: problems opening audio device while playing "胡夏 - 那些年.ape"
+Dec 20 23:41 : client: [41] opened from 127.0.0.1:49478
+Dec 20 23:41 : player: played "胡夏 - 那些年.ape"
+Dec 20 23:41 : client: [41] closed
+Dec 20 23:41 : client: [42] opened from 127.0.0.1:49500
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : player: problems opening audio device while playing "胡夏 - 那些年.ape"
+Dec 20 23:41 : client: [42] closed
+Dec 20 23:41 : client: [43] opened from 127.0.0.1:49502
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : exception: Failed to open "pcm" (alsa)
+Dec 20 23:41 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 20 23:41 : client: [43] closed
+Dec 20 23:41 : client: [44] opened from 127.0.0.1:49504
+Dec 20 23:42 : client: [44] closed
+Dec 20 23:42 : client: [45] opened from 127.0.0.1:49506
+Dec 20 23:42 : player: played "王大毛+-+去年夏天.flac"
+Dec 20 23:42 : client: [45] closed
+Dec 21 12:15 : client: [46] opened from 127.0.0.1:54402
+Dec 21 12:15 : exception: Not playing
+Dec 21 12:15 : client: [46] closed
+Dec 21 12:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 12:42 : client: [0] opened from 127.0.0.1:41868
+Dec 21 13:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 13:24 : client: [0] opened from 127.0.0.1:50858
+Dec 21 14:13 : client: [1] opened from 127.0.0.1:51932
+Dec 21 14:13 : exception: Not playing
+Dec 21 14:13 : client: [1] closed
+Dec 21 14:13 : client: [2] opened from 127.0.0.1:51934
+Dec 21 14:13 : exception: Not playing
+Dec 21 14:13 : client: [2] closed
+Dec 21 14:13 : client: [3] opened from 127.0.0.1:51936
+Dec 21 14:13 : exception: Not playing
+Dec 21 14:13 : client: [3] closed
+Dec 21 17:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 17:06 : client: [0] opened from 127.0.0.1:56698
+Dec 21 21:54 : client: [1] opened from 127.0.0.1:60234
+Dec 21 21:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 21:54 : client: [1] closed
+Dec 21 21:54 : client: [2] opened from 127.0.0.1:60236
+Dec 21 21:54 : client: [2] closed
+Dec 21 21:54 : client: [3] opened from 127.0.0.1:60238
+Dec 21 21:54 : player: played "王大毛+-+去年夏天.flac"
+Dec 21 21:54 : client: [3] closed
+Dec 22 11:20 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 22 11:20 : client: [0] opened from 127.0.0.1:60876
+Dec 22 23:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 22 23:04 : client: [0] opened from 127.0.0.1:60284
+Dec 22 23:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 22 23:09 : client: [0] opened from 127.0.0.1:47694
+Dec 23 21:13 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 23 21:13 : client: [0] opened from 127.0.0.1:33300
+Dec 23 21:14 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 23 21:14 : client: [0] opened from 127.0.0.1:34588
+Dec 24 17:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 24 17:52 : client: [0] opened from 127.0.0.1:51440
+Dec 31 21:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 31 21:01 : client: [0] opened from 127.0.0.1:49098
+Dec 31 21:02 : client: [1] opened from 127.0.0.1:49150
+Dec 31 21:02 : client: [1] closed
+Dec 31 21:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 31 21:02 : exception: Failed to open "pcm" (alsa)
+Dec 31 21:02 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 31 21:02 : exception: Failed to open "pcm" (alsa)
+Dec 31 21:02 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 31 21:02 : player: problems opening audio device while playing "王大毛+-+去年夏天.flac"
+Dec 31 21:02 : client: [2] opened from 127.0.0.1:49158
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Dec 31 21:02 : exception: Failed to open "pcm" (alsa)
+Dec 31 21:02 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 31 21:02 : exception: Failed to open "pcm" (alsa)
+Dec 31 21:02 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Dec 31 21:02 : client: [2] closed
+Dec 31 21:02 : client: [3] opened from 127.0.0.1:49168
+Dec 31 21:02 : client: [3] closed
+Dec 31 21:02 : client: [4] opened from 127.0.0.1:49170
+Dec 31 21:02 : client: [4] closed
+Dec 31 22:01 : player: played "王大毛+-+去年夏天.flac"
+Jan 01 20:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 20:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 20:01 : client: [0] opened from 127.0.0.1:34772
+Jan 01 20:01 : player: played "王大毛+-+去年夏天.flac"
+Jan 01 20:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 20:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 20:02 : client: [0] opened from 127.0.0.1:47404
+Jan 01 21:51 : player: played "王大毛+-+去年夏天.flac"
+Jan 14 13:37 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 13:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 13:37 : client: [0] opened from 127.0.0.1:56238
+Jan 14 13:37 : client: [1] opened from 127.0.0.1:56240
+Jan 14 13:37 : client: [1] closed
+Jan 14 13:38 : client: [2] opened from 127.0.0.1:56246
+Jan 14 13:38 : client: [2] closed
+Jan 14 13:55 : client: [3] opened from 127.0.0.1:57200
+Jan 14 13:55 : client: [3] closed
+Jan 14 13:55 : client: [4] opened from 127.0.0.1:57202
+Jan 14 13:55 : client: [4] closed
+Jan 14 13:55 : client: [5] opened from 127.0.0.1:57204
+Jan 14 13:55 : client: [5] closed
+Jan 14 13:55 : client: [6] opened from 127.0.0.1:57206
+Jan 14 13:55 : client: [6] closed
+Jan 14 13:55 : client: [7] opened from 127.0.0.1:57208
+Jan 14 13:55 : client: [7] closed
+Jan 14 13:55 : client: [8] opened from 127.0.0.1:57210
+Jan 14 13:55 : client: [8] closed
+Jan 14 13:55 : client: [9] opened from 127.0.0.1:57212
+Jan 14 13:55 : client: [9] closed
+Jan 14 13:55 : client: [10] opened from 127.0.0.1:57214
+Jan 14 13:55 : client: [10] closed
+Jan 14 13:55 : client: [11] opened from 127.0.0.1:57216
+Jan 14 13:55 : client: [11] closed
+Jan 14 13:55 : client: [12] opened from 127.0.0.1:57218
+Jan 14 13:55 : client: [12] closed
+Jan 14 13:55 : client: [13] opened from 127.0.0.1:57220
+Jan 14 13:55 : client: [13] closed
+Jan 14 13:55 : client: [14] opened from 127.0.0.1:57222
+Jan 14 13:55 : client: [14] closed
+Jan 14 13:55 : client: [15] opened from 127.0.0.1:57224
+Jan 14 13:55 : client: [15] closed
+Jan 14 13:55 : client: [16] opened from 127.0.0.1:57226
+Jan 14 13:55 : client: [16] closed
+Jan 14 13:55 : client: [17] opened from 127.0.0.1:57228
+Jan 14 13:55 : client: [17] closed
+Jan 14 13:55 : client: [18] opened from 127.0.0.1:57230
+Jan 14 13:55 : client: [18] closed
+Jan 14 13:55 : client: [19] opened from 127.0.0.1:57234
+Jan 14 13:55 : client: [19] closed
+Jan 14 13:55 : client: [20] opened from 127.0.0.1:57238
+Jan 14 13:55 : client: [20] closed
+Jan 14 13:55 : client: [21] opened from 127.0.0.1:57240
+Jan 14 13:55 : client: [21] closed
+Jan 14 13:55 : client: [22] opened from 127.0.0.1:57242
+Jan 14 13:55 : client: [22] closed
+Jan 14 13:55 : client: [23] opened from 127.0.0.1:57244
+Jan 14 13:55 : client: [23] closed
+Jan 14 13:55 : client: [24] opened from 127.0.0.1:57246
+Jan 14 13:55 : client: [24] closed
+Jan 14 13:55 : client: [25] opened from 127.0.0.1:57252
+Jan 14 13:55 : client: [25] closed
+Jan 14 13:55 : client: [26] opened from 127.0.0.1:57254
+Jan 14 13:55 : client: [26] closed
+Jan 14 13:55 : client: [27] opened from 127.0.0.1:57256
+Jan 14 13:55 : client: [27] closed
+Jan 14 13:55 : client: [28] opened from 127.0.0.1:57258
+Jan 14 13:55 : client: [28] closed
+Jan 14 13:55 : client: [29] opened from 127.0.0.1:57260
+Jan 14 13:55 : client: [29] closed
+Jan 14 13:55 : client: [30] opened from 127.0.0.1:57262
+Jan 14 13:55 : client: [30] closed
+Jan 14 13:55 : client: [31] opened from 127.0.0.1:57264
+Jan 14 13:55 : client: [31] closed
+Jan 14 13:55 : client: [32] opened from 127.0.0.1:57266
+Jan 14 13:55 : client: [32] closed
+Jan 14 13:55 : client: [33] opened from 127.0.0.1:57268
+Jan 14 13:55 : client: [33] closed
+Jan 14 13:55 : client: [34] opened from 127.0.0.1:57270
+Jan 14 13:55 : client: [34] closed
+Jan 14 13:55 : client: [35] opened from 127.0.0.1:57272
+Jan 14 13:55 : client: [35] closed
+Jan 14 13:55 : client: [36] opened from 127.0.0.1:57274
+Jan 14 13:55 : client: [36] closed
+Jan 14 13:55 : client: [37] opened from 127.0.0.1:57276
+Jan 14 13:55 : client: [37] closed
+Jan 14 13:55 : client: [38] opened from 127.0.0.1:57278
+Jan 14 13:55 : client: [38] closed
+Jan 14 13:55 : client: [39] opened from 127.0.0.1:57280
+Jan 14 13:55 : client: [39] closed
+Jan 14 13:55 : client: [40] opened from 127.0.0.1:57282
+Jan 14 13:55 : client: [40] closed
+Jan 14 13:55 : client: [41] opened from 127.0.0.1:57284
+Jan 14 13:55 : client: [41] closed
+Jan 14 13:55 : client: [42] opened from 127.0.0.1:57286
+Jan 14 13:55 : client: [42] closed
+Jan 14 13:55 : client: [43] opened from 127.0.0.1:57288
+Jan 14 13:55 : client: [43] closed
+Jan 14 13:55 : client: [44] opened from 127.0.0.1:57290
+Jan 14 13:55 : client: [44] closed
+Jan 14 13:55 : client: [45] opened from 127.0.0.1:57292
+Jan 14 13:55 : client: [45] closed
+Jan 14 13:55 : client: [46] opened from 127.0.0.1:57294
+Jan 14 13:55 : client: [46] closed
+Jan 14 13:55 : client: [47] opened from 127.0.0.1:57296
+Jan 14 13:55 : client: [47] closed
+Jan 14 13:55 : client: [48] opened from 127.0.0.1:57298
+Jan 14 13:55 : client: [48] closed
+Jan 14 13:55 : client: [49] opened from 127.0.0.1:57300
+Jan 14 13:55 : client: [49] closed
+Jan 14 14:18 : client: [50] opened from 127.0.0.1:59320
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Jan 14 14:18 : exception: Failed to open "pcm" (alsa)
+Jan 14 14:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Jan 14 14:18 : exception: Failed to open "pcm" (alsa)
+Jan 14 14:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Jan 14 14:18 : client: [50] closed
+Jan 14 14:18 : client: [51] opened from 127.0.0.1:59322
+ALSA lib pcm_dmix.c:1099:(snd_pcm_dmix_open) unable to open slave
+Jan 14 14:18 : exception: Failed to open "pcm" (alsa)
+Jan 14 14:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Jan 14 14:18 : exception: Failed to open "pcm" (alsa)
+Jan 14 14:18 : exception: nested: Failed to open ALSA device "default": Device or resource busy
+Jan 14 14:18 : client: [51] closed
+Jan 14 14:21 : player: played "王大毛+-+去年夏天.flac"
+Jan 14 14:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 14:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 14:24 : client: [0] opened from 127.0.0.1:39450
+Jan 14 14:32 : player: played "王大毛+-+去年夏天.flac"
+Jan 14 14:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 14:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 14:33 : client: [0] opened from 127.0.0.1:42550
+Jan 14 14:52 : player: played "王大毛+-+去年夏天.flac"
+Jan 20 15:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 20 15:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 20 15:31 : client: [0] opened from 127.0.0.1:54256
+Jan 20 15:44 : client: [1] opened from 127.0.0.1:56614
+Jan 20 15:44 : player: played "王大毛+-+去年夏天.flac"
+Jan 20 15:44 : client: [1] closed
+Jan 20 15:45 : client: [2] opened from 127.0.0.1:56660
+Jan 20 15:45 : client: [2] closed
+Jan 20 16:12 : player: played "薛之谦-认真的雪.ape"
+Jan 20 16:12 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 20 16:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 20 16:12 : client: [0] opened from 127.0.0.1:36704

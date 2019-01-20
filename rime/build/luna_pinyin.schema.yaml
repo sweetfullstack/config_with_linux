@@ -1,11 +1,11 @@
 __build_info:
   rime_version: 1.3.1
   timestamps:
-    alternative: 1536833978
+    alternative: 1539757191
     alternative.custom: 0
     default: 1526362370
     default.custom: 0
-    luna_pinyin.custom: 1536835476
+    luna_pinyin.custom: 1539757173
     luna_pinyin.schema: 1526362370
 custom_phrase:
   db_class: stabledb
@@ -197,14 +197,13 @@ speller:
   delimiter: " '"
 switches:
   - name: ascii_mode
-    reset: 1
+    reset: 0
     states: ["中文", "西文"]
   - name: full_shape
     states: ["半角", "全角"]
   - name: simplification
+    reset: 1
     states: ["漢字", "汉字"]
-  - name: ascii_punct
-    states: ["。，", "．，"]
 translator:
   dictionary: luna_pinyin
   preedit_format:

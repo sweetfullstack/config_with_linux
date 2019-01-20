@@ -31,7 +31,7 @@ bindsym $mod+Shift+p  exec --no-startup-id  deepin-screenshot
 #opera
 bindsym $mod+Shift+o exec --no-startup-id opera
 #google
-bindsym $mod+Shift+g exec --no-startup-id  google-chrome-stable
+bindsym $mod+Shift+g exec --no-startup-id chromium
 
 #############################################################################################################################
 

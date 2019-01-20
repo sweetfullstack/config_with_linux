@@ -1,0 +1,66 @@
+info_begin
+format: 2
+mpd_version: 0.21
+fs_charset: UTF-8
+tag: Artist
+tag: ArtistSort
+tag: Album
+tag: AlbumSort
+tag: AlbumArtist
+tag: AlbumArtistSort
+tag: Title
+tag: Track
+tag: Name
+tag: Genre
+tag: Date
+tag: OriginalDate
+tag: Composer
+tag: Performer
+tag: Disc
+tag: Label
+tag: MUSICBRAINZ_ARTISTID
+tag: MUSICBRAINZ_ALBUMID
+tag: MUSICBRAINZ_ALBUMARTISTID
+tag: MUSICBRAINZ_TRACKID
+tag: MUSICBRAINZ_RELEASETRACKID
+tag: MUSICBRAINZ_WORKID
+info_end
+song_begin: 张国荣 - 千千阙歌.ape
+Time: 278.360000
+Artist: [51ape.com]张国荣
+Title: 千千阕歌
+Format: 44100:16:2
+mtime: 1539756266
+song_end
+song_begin: 胡夏 - 那些年.ape
+Time: 369.867000
+Artist: [www.51ape.com]胡夏
+Title: 那些年
+Format: 44100:16:2
+mtime: 1539778899
+song_end
+song_begin: 一百万个可能+-+Christine+welch.mp3
+Time: 275.487000
+Artist: Christine welch
+Title: 一百万个可能
+Album: 一百万个可能
+Format: 44100:24:2
+mtime: 1540290649
+song_end
+song_begin: 王大毛+-+去年夏天.flac
+Time: 245.026000
+Album: 去年夏天
+Artist: 王大毛
+Title: 去年夏天
+Format: 44100:16:2
+mtime: 1540123804
+song_end
+song_begin: 薛之谦-认真的雪.ape
+Time: 259.347000
+Artist: [51ape.com]薛之谦
+Album: 未完成的歌
+Title: 认真的雪
+Track: 2
+Format: 44100:16:2
+mtime: 1539778892
+song_end

@@ -1,0 +1,18 @@
+sw_volume: 100
+audio_device_state:1:pcm
+state: pause
+current: 2
+time: 91.589000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:一百万个可能+-+Christine+welch.mp3
+1:王大毛+-+去年夏天.flac
+2:薛之谦-认真的雪.ape
+3:胡夏 - 那些年.ape
+playlist_end
